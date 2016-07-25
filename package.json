@@ -17,7 +17,9 @@
     "integration": "jest -c jest-integration.json",
     "release": "grunt release",
     "release-verbose": "grunt --verbose release",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "Apache-2.0",
   "electron-version": "0.35.4",
@@ -50,7 +52,8 @@
     "request-progress": "^0.3.1",
     "rimraf": "^2.3.2",
     "underscore": "^1.8.3",
-    "validator": "^4.1.0"
+    "validator": "^4.1.0",
+    "snyk": "^1.17.1"
   },
   "devDependencies": {
     "babel": "^5.8.23",
@@ -91,5 +94,6 @@
   "optionalDependencies": {
     "grunt-electron-installer-debian": "^0.3.0",
     "grunt-electron-installer-redhat": "^0.3.0"
-  }
+  },
+  "snyk": true
 }
