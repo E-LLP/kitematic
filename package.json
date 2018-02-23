@@ -29,7 +29,7 @@
     "bluebird": "^2.9.24",
     "bugsnag-js": "^2.4.7",
     "classnames": "^2.1.5",
-    "coveralls": "^2.11.2",
+    "coveralls": "^3.0.0",
     "deep-extend": "^0.4.0",
     "dockerode": "^2.2.7",
     "install": "^0.1.8",
@@ -50,7 +50,7 @@
     "request-progress": "^0.3.1",
     "rimraf": "^2.3.2",
     "underscore": "^1.8.3",
-    "validator": "^4.1.0"
+    "validator": "^9.4.1"
   },
   "devDependencies": {
     "babel": "^5.8.23",
